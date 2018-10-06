@@ -1,1 +1,1 @@
-==Sample game for GamblingTec.com==
+=Sample game for GamblingTec.com=
