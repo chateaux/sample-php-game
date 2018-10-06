@@ -3,68 +3,49 @@ session_start();
 require_once("dbconnection.php");
 include("functionClass.php");
 $functionClass = new FunctionClass(); 
-
 $currency = ( $_SESSION['gamblingtec']['currency'] != '' ) ? $_SESSION['gamblingtec']['currency'] : 'EUR';
 require_once __DIR__.'/vendor/autoload.php';
-  
 if (!isset($_SESSION['gamblingtec']['access_token']) && $_SESSION['gamblingtec']['access_token']=="") {
    header("location: login.php");
 }
-   
-    //$current_balance  = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);  
+    //$current_balance  = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
     $functionClass->isAccessTokenExpired();
     $currencyDetails = $functionClass->getCurrencyDetails($currency); 
-
     $closeInactiveGameSession = $functionClass->closeInactiveGameSession();
-    
     $error_message = "";
-	  
-    
 	  if(isset($_POST['mode']) && $_POST['mode']=="gamesubmit"){
 		 $bet_amount = filter_var($_POST['bet'], FILTER_SANITIZE_NUMBER_INT);
 		 $gameColorValue = filter_var($_POST['gameColorValue'], FILTER_SANITIZE_NUMBER_INT);
-		 
-	 	 $bet_amount = ($bet_amount>0) ? $bet_amount : '1'; 
+	 	 $bet_amount = ($bet_amount>0) ? $bet_amount : '1';
 		 if($gameColorValue<=0){
 			$error_message = "Please select color";
 		 }
 		 if($bet_amount<=0){
 			$error_message = "Please enter your bet amount";
 		 } 
-		
 		 if($error_message==""){
 			$bet_amount_withexponent = $bet_amount * $currencyDetails['exponent']; 
-			
 			$currency_symbol = ($currencyDetails['left_symbol'] != '') ? $currencyDetails['left_symbol'] : $currencyDetails['code'];
-			
-			
-		  
-			$balanceDetails = $functionClass->getBalanceDetails($currency); 
-			 
-      
+			$balanceDetails = $functionClass->getBalanceDetails($currency);
 			if($balanceDetails['amount'] > 0 and  $balanceDetails['amount'] >= $bet_amount_withexponent){
-        $gameOpenData = $functionClass->getGameOpenId($currency); 
-        $betGame =   $functionClass->betGame($bet_amount_withexponent,$gameOpenData,$currency);
-      
-      $amount_won_only =   ($bet_amount * $connectionDetail['default']['winAmount']);
-	   
-       $isWinner = mt_rand (1,2);
-       
-			if($gameColorValue==$isWinner){
-        $collectGame =   $functionClass->collectGame($bet_amount_withexponent,$gameOpenData,$currency);
-
-			  $_SESSION['gamblingtec']['gameresult'] = "Congratulation you have won the game with  amount  $currency_symbol ".$amount_won_only;
-			} else {
-			  $_SESSION['gamblingtec']['gameresult'] = "Ohh! you lost the game , better luck next time.";
-			}
-			} else {
-				 $error_message = "You don't have a sufficient amount in ".$currency." to play the game. Please add some funds <a href='deposit.php'>Click here</a>";
-			}
+                $gameOpenData = $functionClass->getGameOpenId($currency);
+                $betGame = $functionClass->betGame($bet_amount_withexponent,$gameOpenData,$currency);
+                $amount_won_only =   ($bet_amount * $connectionDetail['default']['winAmount']);
+                $isWinner = mt_rand (1,2);
+			    if($gameColorValue==$isWinner){
+                    $collectGame =   $functionClass->collectGame($bet_amount_withexponent,$gameOpenData,$currency);
+                    $_SESSION['gamblingtec']['gameresult'] = "Congratulation! You have won $currency_symbol ".$amount_won_only;
+                } else {
+			        $_SESSION['gamblingtec']['gameresult'] = "You lost, better luck next time!";
+                }
+                } else {
+			        $error_message = "You don't have a sufficient amount in ".$currency." to play the game. Please add some funds <a href='deposit.php'>Click here</a>";
+                }
 			//header("location:game.php");
 		 }
 	}
-//print_r($json_response);
-$current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
+    //print_r($json_response);
+    $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -81,9 +62,7 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
  <link href="assets/css/album.css" rel="stylesheet">
 </head>
 <body>
-
 <?php include("header.php");?>
- 
 <main role="main" class="inner text-center bodygame">
 <?php if(isset($_SESSION['gamblingtec']['gameresult']) && $_SESSION['gamblingtec']['gameresult']!=""){
 	?>
@@ -105,40 +84,32 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 	unset($_SESSION['gamblingtec']['gameresult']);
 
 }?>
-
        <div class="row py-md-3">
        <div class="col-md-9">
 </div>
  <div class="col-md-3">
  <?php
-    if(sizeof($current_balance)>0){
-            ?>
+    if(sizeof($current_balance)>0){ ?>
+        <div class="card">
+        <div class="card-header">
+            Current Balance
+        </div>
+        <div class="card-body">
+               <?php
 
-                    <div class="card">
-                    <div class="card-header">
-                        Current Balance
-                    </div>
-                    <div class="card-body">
-                           <?php
-                             
-                             foreach($current_balance as $key => $value){
-                                 $amount_temp = $value['amount'];
-                                 $amount = $amount_temp / $value['exponent'];
-                                
-                     ?> 
-                            <div class="row">
-                            <div class="col-sm-3"><?php echo $value['currency_type']?></div>	
-                            <div class="col-sm-3"><?php echo $amount?></div>
-                            </div> 
-                            <?php } ?>
-                    </div>
-                    </div>
-          
-       
-    
-<?php } ?>
-                             </div>
-                             </div>
+                 foreach($current_balance as $key => $value){
+                     $amount_temp = $value['amount'];
+                     $amount = $amount_temp / $value['exponent']; ?>
+                <div class="row">
+                <div class="col-sm-3"><?php echo $value['currency_type']?></div>
+                <div class="col-sm-3"><?php echo $amount?></div>
+                </div>
+                <?php } ?>
+        </div>
+        </div>
+    <?php } ?>
+         </div>
+         </div>
 <h1 class="cover-heading">The simple Black or White game!</h1>
 <p class="lead">
     This game is really simple, select either the black or white square, enter your bet amount, then click the play button.
@@ -152,7 +123,6 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
       <h2>Black</h2>
       <p id="p1"  class="  "  >
         <img src="assets/images/black.jpg" id="1" class=" gameColor  border-white"  >
-       
       </p>
     </div>
     <div class="col">
@@ -168,10 +138,9 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
       <div class="form-group row">
     <label for="mybet" class="col-sm-3 col-form-label">Enter your bet <php echo $currency??></label>
     <div class="col-sm-3">
-       <input type="text"   class="form-control" id="bet" name="bet" value="1">
+       <input type="text" class="form-control" id="bet" name="bet" value="1">
     </div>
   </div>
-
     </div>
   </div>  
   <div class="row">
@@ -185,8 +154,6 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
  </form>
   </main>
 <?php include("footer.php");?>
-
-
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
@@ -195,10 +162,7 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 <script src="assets/js/popper.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script> 
 <script>
- 
-
  $(".gameColor").click(function(){
-  
   // $("p").css("color", "red");
   var selctedColorId = $(this).attr("id");
   $("#gameColorValue").val(selctedColorId);
@@ -206,13 +170,10 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
      $("#p2").removeClass("border border-success");  
     if(selctedColorId==1){
      $("#p1").addClass("border border-success");
-	 
    } else if(selctedColorId==2){
      $("#p2").addClass("border border-success");
    }
-  
  });
- 
  </script>
 </body>
 </html>
