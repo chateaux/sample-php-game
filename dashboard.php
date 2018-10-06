@@ -4,15 +4,10 @@ require_once("dbconnection.php");
 include("functionClass.php");
 $functionClass = new FunctionClass();
 require_once __DIR__ . '/vendor/autoload.php';
-
 if (!isset($_SESSION['gamblingtec']['access_token']) && $_SESSION['gamblingtec']['access_token'] == "") {
     header("location: login.php");
 }
-
 $functionClass->isAccessTokenExpired();
- 
- 
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -29,28 +24,21 @@ $functionClass->isAccessTokenExpired();
  <!-- Custom styles for this template -->
  <link href="assets/css/album.css" rel="stylesheet">
 </head>
-
 <body>
 <?php include("header.php"); ?>
-
 <main role="main" class="inner py-md-3">
  	 <div class="container">
-      
-    <div class="row">
-        <div class="col-sm-4"><?php include("leftmenu.php"); ?></div>	
-        <div class="col-sm-8"> <h1 class="jumbotron-heading">Dashboard</h1>
-
-       
+        <div class="row">
+            <div class="col-sm-4"><?php include("leftmenu.php"); ?></div>
+            <div class="col-sm-8"> <h1 class="jumbotron-heading">Dashboard</h1>
+                <p class="lead text-muted">
+                    You can use the dashboard to show some basic information.
+                </p>
+            </div>
+        </div>
     </div>
-
-    </div>
-
-    </div>
-
 </main>
-
 <?php include("footer.php"); ?>
-
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
@@ -58,6 +46,5 @@ $functionClass->isAccessTokenExpired();
 <script>window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>')</script> 
 <script src="assets/js/popper.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script> 
- 
 </body>
 </html>
