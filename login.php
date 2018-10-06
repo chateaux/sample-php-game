@@ -135,19 +135,19 @@ include( "header.php" );
 ?>
 
 <main role="main">
-
   <section class="jumbotron text-center">
     <div class="container">
       <h1 class="jumbotron-heading">Login</h1>
-      <p class="lead text-muted">Add some information about the game below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+      <p class="lead text-muted">
+          To play the game you first need to login to your account and we use OAuth2.0 for Authentication with the
+          GamblingTec.com platform.
+      </p>
       <p>
         <a href="<?php echo $auth_url;?>" class="btn btn-primary my-2">Login with Gambling Tec</a>
          
       </p>
     </div>
   </section>
- 
-
 </main>
 
 <?php
