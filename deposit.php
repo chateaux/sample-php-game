@@ -51,12 +51,11 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
       <div class="col-sm-8">
         <h1 class="jumbotron-heading">Deposit</h1>
          <p class="lead text-muted">
-             When making a deposit, your game must re-direct the user to the GamblingTec.com wallet where the user
-             can add funds to their account.
+             When making a deposit, your game must re-direct the user to the GamblingTec.com wallet pages where the user
+             can make a payment by credit card or e-wallet and on completion, the funds will be transferred to the game.
          </p>
       <p>
         <a href="<?php echo $deposite_url;?>" class="btn btn-primary my-2">Deposit</a>
-         
       </p>
       </div>
     </div>
