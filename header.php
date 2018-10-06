@@ -7,14 +7,17 @@ $currencyList = $functionClass->getCurrencyList();
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the game below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <p class="text-muted">
+              This is a simple application designed to show game developers how to integrate into the GamblingTec.com
+              application.
+          </p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4" style="color">
           <h4 class="text-white">Contact</h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+            <li><a href="https://gtec.curacaowebhosting.com/" class="text-white">Our support desk</a></li>
+            <li><a href="https://www.twitter.com/gamblingtec" class="text-white">Find us on twitter</a></li>
+            <li><a href="#" class="text-white">Skype: brendanjnash</a></li>
           </ul>
         </div>
       </div>
