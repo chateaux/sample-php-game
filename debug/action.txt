@@ -1,0 +1,7 @@
+Array
+(
+    [userUuid] => 8840fbec-d453-45c6-a016-9d7e43a0c7df
+    [transactionUuid] => 8bd4266e-f6e0-49fa-bc19-d3edd32977c5
+    [amount] => 201
+    [currency] => EUR
+)

@@ -1,0 +1,8 @@
+{{<mail::simple-mail-plaintext}}
+{{$simple-mail-content}}
+Welcome
+
+Thank you for resgitering with us
+
+{{/simple-mail-content}}
+{{/mail::simple-mail-plaintext}}

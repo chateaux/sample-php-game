@@ -1,0 +1,6 @@
+{
+    "require": {
+        "league/oauth2-client": "^2.3",
+        "datto/json-rpc": "~5.0"
+    }
+}

@@ -1,0 +1,650 @@
+{"method":"getBalances","id":"1","params":{"userUuid":"8b96093d-3bc7-4c3d-a46a-ea27bfeae166"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W56vcQP@Uv3fJWg114L2WAAAAAM
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W56vcQP@Uv3fJWg114L2WAAAAAM
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45b5c027d1196e6e-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:0010ccbda3ff87a7db98daf7ddd83a95c6146f95c19e5de5c0c1fd7acbcd7ad6
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 24094
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537126257.9657
+    [REQUEST_TIME] => 1537126257
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8b96093d-3bc7-4c3d-a46a-ea27bfeae166"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W561XS9FVAQzr8GFrbxYggAAAAc
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W561XS9FVAQzr8GFrbxYggAAAAc
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.215
+    [HTTP_CF_RAY] => 45b5e52604326e74-CUR
+    [CONTENT_LENGTH] => 108
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [HTTP_ACCEPT] => */*
+    [HTTP_X_HMAC] => sha256:0ccaa607eec940d383386c0b300eb73617ab5f651a10a51a1d25892adf53fe74
+    [CONTENT_TYPE] => application/json
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.215
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 18936
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537127773.185
+    [REQUEST_TIME] => 1537127773
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"jsonrpc":"2.0","id":1,"method":"getBalances","params":{"userUuid":"8b96093d-3bc7-4c3d-a46a-ea27bfeae166"}}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6H17iYBdhLSE39FLma8XQAAAAI
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6H17iYBdhLSE39FLma8XQAAAAI
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45ca38b413936e6e-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:0010ccbda3ff87a7db98daf7ddd83a95c6146f95c19e5de5c0c1fd7acbcd7ad6
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 63994
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537340910.8052
+    [REQUEST_TIME] => 1537340910
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8b96093d-3bc7-4c3d-a46a-ea27bfeae166"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdaBXceUfylHeTxRF8bwAAAAk
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdaBXceUfylHeTxRF8bwAAAAk
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d2ff6ba4146e74-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 38236
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432936.33
+    [REQUEST_TIME] => 1537432936
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdbXlvJIQt0qnTfQfjdQAAAAU
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdbXlvJIQt0qnTfQfjdQAAAAU
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d2ff8ab3a96e6e-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.14
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 53414
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432941.3024
+    [REQUEST_TIME] => 1537432941
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdbUaq5e0xkDIyWnV3WAAAAAo
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdbUaq5e0xkDIyWnV3WAAAAAo
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d2ff8b63e36e6e-CUR
+    [CONTENT_LENGTH] => 196
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:ef308aff58b44b45d8e1885f6a0a71f3edfb17eb3906cc50db0ec97616025ef1
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.8
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 27284
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432941.4062
+    [REQUEST_TIME] => 1537432941
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"withdraw","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df","transactionUuid":"8bd4266e-f6e0-49fa-bc19-d3edd32977c5","amount":"201","currency":"EUR"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdhyDSBztxKL8q7Pp@7wAAAAs
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdhyDSBztxKL8q7Pp@7wAAAAs
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d3002fa4d46e6e-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.8
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 28644
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432967.6896
+    [REQUEST_TIME] => 1537432967
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdjSr63HzqKV3zW@I-ygAAABA
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdjSr63HzqKV3zW@I-ygAAABA
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d30051c1cd6e6e-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 40376
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432973.1517
+    [REQUEST_TIME] => 1537432973
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdjVtzMJmE@EskT-N3KgAAAAg
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdjVtzMJmE@EskT-N3KgAAAAg
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d3005532616e68-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.20
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 40404
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432973.7065
+    [REQUEST_TIME] => 1537432973
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdjTU7KJ@5fRALLB9eiwAAAAQ
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdjTU7KJ@5fRALLB9eiwAAAAQ
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d30055f2656e68-CUR
+    [CONTENT_LENGTH] => 195
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:ed84efc2b98a87de6c28f72039bde7db0f6e0ede62fa09941162689f40b33b7a
+    [HTTP_COOKIE] => __cfduid=deb2945095f51195983125c34db0fc31c1537432973; PHPSESSID=obbipkiidrsjukdojm36oflad6
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.14
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 55132
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432973.8145
+    [REQUEST_TIME] => 1537432973
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"deposit","id":"2","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df","transactionUuid":"8bd426a0-6958-4579-95a1-2f5085ad1666","amount":"300","currency":"EUR"},"jsonrpc":"2.0"}Array
+(
+    [TZ] => Africa/Johannesburg
+    [REDIRECT_UNIQUE_ID] => W6NdjnlvJIQt0qnTfQfjdwAAAAU
+    [REDIRECT_SCRIPT_URL] => /callbackaction.php
+    [REDIRECT_SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [REDIRECT_HANDLER] => application/x-httpd-ea-php70
+    [REDIRECT_STATUS] => 200
+    [UNIQUE_ID] => W6NdjnlvJIQt0qnTfQfjdwAAAAU
+    [SCRIPT_URL] => /callbackaction.php
+    [SCRIPT_URI] => http://samplegame.gtec.io/callbackaction.php
+    [HTTP_HOST] => samplegame.gtec.io
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip
+    [HTTP_CF_IPCOUNTRY] => CW
+    [HTTP_X_FORWARDED_FOR] => 200.124.153.211
+    [HTTP_CF_RAY] => 45d3005977fc6e74-CUR
+    [CONTENT_LENGTH] => 110
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_CF_VISITOR] => {"scheme":"http"}
+    [CONTENT_TYPE] => application/json
+    [HTTP_ACCEPT] => application/json
+    [HTTP_USER_AGENT] => Zend_Json_Server_Client
+    [HTTP_X_HMAC] => sha256:69fa7aedda69c6ddd2954bc9db386da3f34ca0c27d11f5f1227a8b707da84394
+    [HTTP_CF_CONNECTING_IP] => 200.124.153.211
+    [PATH] => /usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.34 (cPanel) OpenSSL/1.0.2p mod_bwlimited/1.4
+    [SERVER_NAME] => samplegame.gtec.io
+    [SERVER_ADDR] => 200.124.153.215
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.68.122.8
+    [DOCUMENT_ROOT] => /home/samplegamegtec/public_html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => /cgi-sys
+    [CONTEXT_DOCUMENT_ROOT] => /usr/local/cpanel/cgi-sys/
+    [SERVER_ADMIN] => webmaster@samplegame.gtec.io
+    [SCRIPT_FILENAME] => /home/samplegamegtec/public_html/callbackaction.php
+    [REMOTE_PORT] => 28900
+    [REDIRECT_URL] => /callbackaction.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /callbackaction.php
+    [SCRIPT_NAME] => /callbackaction.php
+    [ORIG_SCRIPT_FILENAME] => /usr/local/cpanel/cgi-sys/ea-php70
+    [ORIG_PATH_INFO] => /callbackaction.php
+    [ORIG_PATH_TRANSLATED] => /home/samplegamegtec/public_html/callbackaction.php
+    [ORIG_SCRIPT_NAME] => /cgi-sys/ea-php70
+    [PHP_SELF] => /callbackaction.php
+    [REQUEST_TIME_FLOAT] => 1537432974.3785
+    [REQUEST_TIME] => 1537432974
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+{"method":"getBalances","id":"1","params":{"userUuid":"8840fbec-d453-45c6-a016-9d7e43a0c7df"},"jsonrpc":"2.0"}

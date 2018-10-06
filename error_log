@@ -1,0 +1,151 @@
+[25-Sep-2018 22:06:07 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getCurrencyList() on null in /home/samplegamegtec/public_html/header.php:2
+Stack trace:
+#0 /home/samplegamegtec/public_html/index.php(22): include()
+#1 {main}
+  thrown in /home/samplegamegtec/public_html/header.php on line 2
+[25-Sep-2018 22:10:54 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[27-Sep-2018 16:48:37 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[27-Sep-2018 16:48:40 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[27-Sep-2018 16:48:40 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[27-Sep-2018 16:48:40 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[27-Sep-2018 16:48:42 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[27-Sep-2018 16:48:42 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:21:41 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[28-Sep-2018 10:21:41 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:21:44 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[28-Sep-2018 10:21:44 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:22:06 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[28-Sep-2018 10:22:06 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:22:22 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:22:39 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:22:41 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/samplegamegtec/public_html/game.php:7) in /home/samplegamegtec/public_html/game.php on line 11
+[28-Sep-2018 10:22:41 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:23:24 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:23:27 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Sep-2018 10:24:05 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Oct-2018 19:31:15 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Oct-2018 19:31:16 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Oct-2018 19:31:19 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Oct-2018 19:31:20 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[06-Oct-2018 09:10:15 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[06-Oct-2018 09:10:17 Europe/London] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(526): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/samplegamegtec/public_html/functionClass.php(98): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 /home/samplegamegtec/public_html/functionClass.php(138): FunctionClass->getNewAccessToken(N in /home/samplegamegtec/public_html/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
