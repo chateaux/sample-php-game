@@ -7,12 +7,8 @@ if (!isset($_SESSION['gamblingtec']['access_token']) && $_SESSION['gamblingtec']
 //    header("location: login.php");
 }
 require_once __DIR__.'/vendor/autoload.php';
-  
 $functionClass->isAccessTokenExpired();
-
-$withdraw_auth_url = "https://sandbox.gamblingtec.com/widget/balances"; 
-  
-        
+$withdraw_auth_url = "https://sandbox.gamblingtec.com/widget/balances";
 ?>
 <!doctype html>
 <html lang="en">
@@ -23,36 +19,30 @@ $withdraw_auth_url = "https://sandbox.gamblingtec.com/widget/balances";
 <meta name="author" content="">
 <link rel="icon" href="assets/favicon.ico">
 <title>Game Template</title>
-
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom styles for this template -->
  <link href="assets/css/album.css" rel="stylesheet">
 </head>
-
 <body>
 <?php include("header.php");?>
-
 <main role="main" class="inner py-md-3">
  	 <div class="container">
-      
        <div class="row">
   <div class="col-sm-4"><?php include("leftmenu.php");?></div>	
   <div class="col-sm-8"> <h1 class="jumbotron-heading">Withdraw</h1>
-  
-  <p class="lead text-muted">Add some information about the game below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+  <p class="lead text-muted">
+      To withdraw, the user is directed to the GamblingTec.com pages where they are able to withdraw their
+      funds from the game back to their GamblingTec.com wallet. The GamblingTec.com widget will call a
+      JSON-RPC endpoint (as specified in the documentation) in order to complete the transfer.
+  </p>
       <p>
         <a href="<?php echo $withdraw_auth_url;?>" class="btn btn-primary my-2">Withdraw from Gambling Tec</a>
-        
   </div>
- 
 </div>
     </div>
-
 </main>
-
 <?php include("footer.php");?>
-
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
