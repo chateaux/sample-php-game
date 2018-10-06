@@ -139,7 +139,7 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 <?php } ?>
                              </div>
                              </div>
-<h1 class="cover-heading">The simple Black or White games!</h1>
+<h1 class="cover-heading">The simple Black or White game!</h1>
 <p class="lead">
     This game is really simple, select either the black or white square, enter your bet amount, then click the play button.
 </p>
