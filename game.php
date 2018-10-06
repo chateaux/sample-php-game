@@ -58,19 +58,13 @@ if (!isset($_SESSION['gamblingtec']['access_token']) && $_SESSION['gamblingtec']
 			  $_SESSION['gamblingtec']['gameresult'] = "Ohh! you lost the game , better luck next time.";
 			}
 			} else {
-				 $error_message = "Ohh! you don't have sufficient amount in ".$currency." to play game. Please add some funds <a href='deposit.php'>Click here</a>";
+				 $error_message = "You don't have a sufficient amount in ".$currency." to play the game. Please add some funds <a href='deposit.php'>Click here</a>";
 			}
-			
-			
 			//header("location:game.php");
- 
 		 }
 	}
-
 //print_r($json_response);
 $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
-
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -81,13 +75,11 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 <meta name="author" content="">
 <link rel="icon" href="assets/favicon.ico">
 <title>Game Template</title>
-
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom styles for this template -->
  <link href="assets/css/album.css" rel="stylesheet">
 </head>
-
 <body>
 
 <?php include("header.php");?>
@@ -147,8 +139,10 @@ $current_balance = $functionClass->getCurrentBalances($_SESSION['gamblingtec']);
 <?php } ?>
                              </div>
                              </div>
-<h1 class="cover-heading">Select Color.</h1>
-<p class="lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+<h1 class="cover-heading">The simple Black or White games!</h1>
+<p class="lead">
+    This game is really simple, select either the black or white square, enter your bet amount, then click the play button.
+</p>
   <form id="frmGame" name= "frmGame" action="" method="post">
  <input type="hidden" name="gameColorValue" id="gameColorValue" value="-1"  >
  <input type="hidden" name="mode" id="mode" value="gamesubmit" >

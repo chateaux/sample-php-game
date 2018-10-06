@@ -27,8 +27,16 @@ $functionClass = new FunctionClass();
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1 class="jumbotron-heading">Game example</h1>
-      <p class="lead text-muted">Add some information about the game below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+      <h1 class="jumbotron-heading">GamblingTec sample game</h1>
+      <p class="lead text-muted">
+          The following sample code has been created to assist game developers integrate into the GamblingTec.com
+          API.
+      </p>
+        <p>
+            The code is written in PHP and uses very basic code standards to show the simplicity of integrating into
+            the platform, you can find the source code on github:
+            <a href="https://github.com/chateaux/sample-php-game">https://github.com/chateaux/sample-php-game</a>
+        </p>
       <p>
         <a href="game.php" class="btn btn-primary my-2">Go To Game</a>
          
